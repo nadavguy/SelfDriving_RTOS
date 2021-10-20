@@ -1,0 +1,5 @@
+rpmsg.h:147:19:rpmsg_send	32	static
+rpmsg.h:286:20:rpmsg_init_ept	24	static
+main.c:82:5:main	40	static,ignoring_inline_asm
+main.c:198:6:SystemClock_Config	120	static
+main.c:260:6:Error_Handler	4	static,ignoring_inline_asm
