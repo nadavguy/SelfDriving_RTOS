@@ -1,4 +1,5 @@
-Core/Src/stm32h7xx_hal_msp.o: ../Core/Src/stm32h7xx_hal_msp.c \
+Common/Src/messagesParser.o: \
+ C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Src/messagesParser.c \
  ../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
@@ -6,7 +7,7 @@ Core/Src/stm32h7xx_hal_msp.o: ../Core/Src/stm32h7xx_hal_msp.c \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
  ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h745xx.h \
- ../../Drivers/CMSIS/Include/core_cm7.h \
+ ../../Drivers/CMSIS/Include/core_cm4.h \
  ../../Drivers/CMSIS/Include/cmsis_version.h \
  ../../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../../Drivers/CMSIS/Include/cmsis_gcc.h \
@@ -28,14 +29,10 @@ Core/Src/stm32h7xx_hal_msp.o: ../Core/Src/stm32h7xx_hal_msp.c \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
- ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
- ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hcd.h \
- ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
  C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/memoryManager.h \
  ../OPENAMP/openamp.h \
  ../../Middlewares/Third_Party/OpenAMP/open-amp/lib/include/openamp/open_amp.h \
@@ -87,7 +84,7 @@ Core/Src/stm32h7xx_hal_msp.o: ../Core/Src/stm32h7xx_hal_msp.c \
 
 ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h745xx.h:
 
-../../Drivers/CMSIS/Include/core_cm7.h:
+../../Drivers/CMSIS/Include/core_cm4.h:
 
 ../../Drivers/CMSIS/Include/cmsis_version.h:
 
@@ -131,10 +128,6 @@ Core/Src/stm32h7xx_hal_msp.o: ../Core/Src/stm32h7xx_hal_msp.c \
 
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
 
-../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h:
-
-../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h:
-
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
@@ -142,10 +135,6 @@ Core/Src/stm32h7xx_hal_msp.o: ../Core/Src/stm32h7xx_hal_msp.c \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-
-../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hcd.h:
-
-../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h:
 
 C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/memoryManager.h:
 

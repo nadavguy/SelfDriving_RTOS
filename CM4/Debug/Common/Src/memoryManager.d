@@ -67,7 +67,8 @@ Common/Src/memoryManager.o: \
  ../../Middlewares/Third_Party/OpenAMP/libmetal/lib/include/metal/spinlock.h \
  ../../Middlewares/Third_Party/OpenAMP/open-amp/lib/include/openamp/remoteproc.h \
  ../../Middlewares/Third_Party/OpenAMP/open-amp/lib/include/openamp/remoteproc_virtio.h \
- ../OPENAMP/openamp_conf.h ../OPENAMP/mbox_hsem.h
+ ../OPENAMP/openamp_conf.h ../OPENAMP/mbox_hsem.h \
+ C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/messagesParser.h
 
 ../Core/Inc/main.h:
 
@@ -206,3 +207,5 @@ C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/memoryMa
 ../OPENAMP/openamp_conf.h:
 
 ../OPENAMP/mbox_hsem.h:
+
+C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/messagesParser.h:

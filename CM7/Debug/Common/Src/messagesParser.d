@@ -1,4 +1,5 @@
-Core/Src/stm32h7xx_hal_msp.o: ../Core/Src/stm32h7xx_hal_msp.c \
+Common/Src/messagesParser.o: \
+ C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Src/messagesParser.c \
  ../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \

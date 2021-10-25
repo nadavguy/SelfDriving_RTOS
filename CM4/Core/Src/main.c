@@ -28,7 +28,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "memoryManager.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -133,16 +133,16 @@ int main(void)
 
     /* Pingpong application*/
     /* Reveice an interger from the master, incremennt it and send back the result to the master*/
-    while (message < 100)
-    {
+//    while (message < 100)
+//    {
   	  message = receive_message();
   	  message++;
   	  status = OPENAMP_send(&rp_endpoint, &message, sizeof(message));
-  	  if (status < 0)
-  	  {
-  		  Error_Handler();
-  	  }
-    }
+//  	  if (status < 0)
+//  	  {
+//  		  Error_Handler();
+//  	  }
+//    }
   /* USER CODE END 2 */
 
   /* Init scheduler */

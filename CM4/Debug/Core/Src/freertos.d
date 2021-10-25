@@ -41,8 +41,7 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
- ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
+ C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/memoryManager.h \
  ../OPENAMP/openamp.h \
  ../../Middlewares/Third_Party/OpenAMP/open-amp/lib/include/openamp/open_amp.h \
  ../../Middlewares/Third_Party/OpenAMP/open-amp/lib/include/openamp/rpmsg.h \
@@ -77,7 +76,9 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
  ../../Middlewares/Third_Party/OpenAMP/open-amp/lib/include/openamp/remoteproc.h \
  ../../Middlewares/Third_Party/OpenAMP/open-amp/lib/include/openamp/remoteproc_virtio.h \
  ../OPENAMP/openamp_conf.h ../OPENAMP/mbox_hsem.h \
- C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/memoryManager.h
+ C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/messagesParser.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 
 ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 
@@ -163,9 +164,7 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
 
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
 
-../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
-
-../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
+C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/memoryManager.h:
 
 ../OPENAMP/openamp.h:
 
@@ -237,4 +236,8 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
 
 ../OPENAMP/mbox_hsem.h:
 
-C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/memoryManager.h:
+C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/messagesParser.h:
+
+../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
+
+../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:

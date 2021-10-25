@@ -31,18 +31,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
- ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
- ../Core/Inc/FreeRTOSConfig.h \
- ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
- ../../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
- ../../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
- ../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
- ../../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
- ../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
- ../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
- ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
- ../Core/Inc/dma.h ../Core/Inc/main.h ../Core/Inc/i2c.h \
+ C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/memoryManager.h \
  ../OPENAMP/openamp.h \
  ../../Middlewares/Third_Party/OpenAMP/open-amp/lib/include/openamp/open_amp.h \
  ../../Middlewares/Third_Party/OpenAMP/open-amp/lib/include/openamp/rpmsg.h \
@@ -76,9 +65,21 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../../Middlewares/Third_Party/OpenAMP/libmetal/lib/include/metal/spinlock.h \
  ../../Middlewares/Third_Party/OpenAMP/open-amp/lib/include/openamp/remoteproc.h \
  ../../Middlewares/Third_Party/OpenAMP/open-amp/lib/include/openamp/remoteproc_virtio.h \
- ../OPENAMP/openamp_conf.h ../OPENAMP/mbox_hsem.h ../Core/Inc/tim.h \
- ../Core/Inc/gpio.h \
- C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/memoryManager.h
+ ../OPENAMP/openamp_conf.h ../OPENAMP/mbox_hsem.h \
+ C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/messagesParser.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ ../Core/Inc/FreeRTOSConfig.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
+ ../Core/Inc/dma.h ../Core/Inc/main.h ../Core/Inc/i2c.h ../Core/Inc/tim.h \
+ ../Core/Inc/gpio.h
 
 ../Core/Inc/main.h:
 
@@ -146,33 +147,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
 
-../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
-
-../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
-
-../Core/Inc/FreeRTOSConfig.h:
-
-../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
-
-../../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:
-
-../../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
-
-../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
-
-../../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
-
-../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
-
-../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
-
-../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
-
-../Core/Inc/dma.h:
-
-../Core/Inc/main.h:
-
-../Core/Inc/i2c.h:
+C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/memoryManager.h:
 
 ../OPENAMP/openamp.h:
 
@@ -244,8 +219,36 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../OPENAMP/mbox_hsem.h:
 
+C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/messagesParser.h:
+
+../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
+
+../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
+
+../Core/Inc/FreeRTOSConfig.h:
+
+../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
+
+../../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:
+
+../../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
+
+../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
+
+../../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
+
+../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
+
+../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
+
+../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
+
+../Core/Inc/dma.h:
+
+../Core/Inc/main.h:
+
+../Core/Inc/i2c.h:
+
 ../Core/Inc/tim.h:
 
 ../Core/Inc/gpio.h:
-
-C:/Users/raing/STM32CubeIDE/workspace_1.3.0/SelfDriving_RTOS/Common/Inc/memoryManager.h:

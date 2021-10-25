@@ -31,7 +31,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "memoryManager.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -116,11 +116,15 @@ HAL_HSEM_FastTake(HSEM_ID_0);
 /*Release HSEM in order to notify the CPU2(CM4)*/
 HAL_HSEM_Release(HSEM_ID_0,0);
 /* wait until CPU2 wakes up from stop mode */
-timeout = 0xFFFF;
-while((__HAL_RCC_GET_FLAG(RCC_FLAG_D2CKRDY) == RESET) && (timeout-- > 0));
-if ( timeout < 0 )
+//timeout = 0xFFFF;
+//while((__HAL_RCC_GET_FLAG(RCC_FLAG_D2CKRDY) == RESET) && (timeout-- > 0));
+//if ( timeout < 0 )
+//{
+//Error_Handler();
+//}
+while (__HAL_RCC_GET_FLAG(RCC_FLAG_D2CKRDY) != RESET)
 {
-Error_Handler();
+	asm("nop");
 }
 /* USER CODE END Boot_Mode_Sequence_2 */
 
@@ -166,16 +170,16 @@ Error_Handler();
   	//	ssd1306_TestBorder();
 
   		uint8_t message = 0;
-  		while (message < 100)
-  		{
-  			/* Receive the massage from the remote CPU */
+//  		while (message < 100)
+//  		{
+//  			/* Receive the massage from the remote CPU */
   			message = receive_message();
   			status = OPENAMP_send(&rp_endpoint, &message, sizeof(message));
-  			if (status < 0)
-  			{
-  				Error_Handler();
-  			}
-  		}
+//  			if (status < 0)
+//  			{
+//  				Error_Handler();
+//  			}
+//  		}
   /* USER CODE END 2 */
 
   /* Infinite loop */
